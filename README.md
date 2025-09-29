@@ -1,9 +1,36 @@
-React Movie App
-A responsive web application that allows users to search for and explore movies. This project was built using React, leveraging The Movie Database (TMDb) API for movie data.
+# 🎬 React Movie App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A movie discovery web application built with **React + Vite** and powered by the **TMDB (The Movie Database) API**.  
+This app lets users browse popular movies and (soon) search by title, see ratings, and view details.
 
-## Expanding the ESLint configuration
+> 🚧 **Status:** Work in progress  
+> Features and UI are still being developed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features (current & planned)
+
+- ✅ Fetches popular movies from TMDB’s API  
+- ✅ Displays each movie with title, poster, release year, and rating  
+- 🔜 Search movies by keyword  
+- 🔜 Responsive design with Tailwind CSS  
+- 🔜 Movie detail page with cast and trailers
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Vite build tool)
+- **Tailwind CSS** for styling
+- **TMDB API** for movie data
+- **Git + GitHub** for version control
+- (Optional) Vercel or Netlify for deployment
+
+---
+
+## ⚡ Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/jamalmohadinho/React_Movie-App.git
+   cd React_Movie-App
